@@ -200,7 +200,35 @@
   
   <!-- <iframe src="https://www.wikipedia.com" width="700" height="200"> -->
   
-  <iframe style="border: 0px;" src="ad.html" width="700" height="200">
+  <!-- <iframe style="border: 0px;" src="ad.html" width="700" height="200"> -->
+
+
+
+  <!-- Buttons in HTML -->
+  <!-- <a href="https://www.bing.com">
+   <button style="background-color: lightslategray; color:aliceblue;">
+    Click me
+   </button>
+   </a> -->
+
+   
+    <button onclick="doSomething()" style="background-color: lightslategray; color:aliceblue; font-size:larger">
+     Click me
+    </button>
+    <p id="greet">Hello, I am Razzaq</p>
+
+    <script>
+    function doSomething() {
+      document.getElementById("greet").innerHTML = "Hey! Nice to meet you Mr.Razzaq.";
+    }
+    </script>
+
+   <!-- <br>
+   <button onclick="alert('Hello World!')">Click me</button> -->
+
+   <button onclick="alert('Sorry! Internet connection error')"> Go to Next Page </button>
+
+   
 
   </body>
  
