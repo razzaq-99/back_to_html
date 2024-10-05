@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="action_page.php" method="post">
+    <div>
+        <label for="fname">First Name:</label>
+        <input type="text" id ="fname" name="fname" placeholder="eg. Rehan" required> 
+    </div>
+        <br>
+    <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" id ="lname" name="lname" placeholder="eg. khan" required> 
+    </div>
+
+        <br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id ="email" name="email" placeholder="eg. rehan@gmail.com" required> 
+    </div>
+        <br>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id ="password" name="password" maxlength="10" placeholder="eg. 12345678" required> 
+    </div>
+        <br>
+    <div>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id ="confirmPassword" name="confirmPassword" maxlength="10"  placeholder="eg. 12345678" required > 
+    </div>
+        <br>
+    <div>
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </div>
+        <br>
+        <label for="DOB">Date of Birth: </label>
+        <input type="date" id="DOB" name="DOB" value="DOB">
+        <br>
+        <br>
+    <div>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Germany">Germany</option>
+            <option value="Japan">Japan</option>
+            <option value="other">Other</option>
+        </select>
+
+    </div>
+        <br>
+     <div>
+        <label for="phone">Phone:</label>
+        <input type="tel" id ="phone" name="phone" placeholder="eg. 0300-1234567" required>
+     </div>
+        <br>
+      <div>
+        <label for="subscribe">Subscribe: </label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+      </div>
+        <br>
+        <input type="reset">
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
